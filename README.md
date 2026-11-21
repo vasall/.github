@@ -19,27 +19,27 @@ Dyno is both a CAD editor and a network manager. It allows the design of parts, 
 Dyno contains the following areas:
 <table>
   <tr>
-    <td><img src="assets/icons/designer.svg" width="16" height="16" align="center"> <b>Designer</b></td>
+    <td><img src="assets/icons/designer.svg" width="16" height="16"> <b>Designer</b></td>
     <td>Design parts using script-based CAD</td>
   </tr>
   <tr>
-    <td><img src="assets/icons/binder.svg" width="16" height="16" align="center">     <b>Binder</b></td>
+    <td><img src="assets/icons/binder.svg" width="16" height="16">     <b>Binder</b></td>
     <td>Program the behavior of parts to simulate actuators and sensors</td>
   </tr>
   <tr>
-    <td><img src="assets/icons/rigger.svg" width="16" height="16" align="center"> <b>Rigger</b></td>
+    <td><img src="assets/icons/rigger.svg" width="16" height="16"> <b>Rigger</b></td>
     <td>Assemble the parts into a robot by configuring connections and joints</td>
   </tr>
   <tr>
-    <td><img src="assets/icons/scene_builder.svg" width="16" height="16" align="center"> <b>Scene Builder</b></td>
+    <td><img src="assets/icons/scene_builder.svg" width="16" height="16"> <b>Scene Builder</b></td>
     <td>Setup the testing environment</td>
   </tr>
   <tr>
-    <td><img src="assets/icons/programmer.svg" width="16" height="16" align="center"> <b>Programmer</b></td>
+    <td><img src="assets/icons/programmer.svg" width="16" height="16"> <b>Programmer</b></td>
     <td>Configure and programm Runtimes</td>
   </tr>
   <tr>
-    <td><img src="assets/icons/simulator.svg" width="16" height="16" align="center"> <b>Simulator</b></td>
+    <td><img src="assets/icons/simulator.svg" width="16" height="16"> <b>Simulator</b></td>
     <td>Configure and manage the Simulation</td>
   </tr>
 </table>
