@@ -1,53 +1,21 @@
 # Vasall Toolchain
 
-## Concept
-The rapid prototyping of new robot designs requires a proper workflow and tools to support it. For this purpose, the **Vasall Toolchain** is being developed: a single, self-contained environment for designing and configuring new robots and for training both the AI models and the controllers that move them.
+**Design, simulate, train and deploy robots, all in one toolchain.**
 
-To keep things clean and simple, the toolchain consists of three components: an editor (Dyno), a simulation engine (Sandbox) and a runtime (Runtime). They communicate over a custom protocol, which lets the editor manage and monitor the other two.
+Vasall brings the whole robot prototyping workflow into one
+self-contained environment. Design parts and assemble robots in
+**Steward**, train their controllers and AI models in **Tourney**, then
+deploy the same **Knight** runtime to a Raspberry Pi on the real robot.
+Finished parts can be exported as STL for manufacturing.
 
-Once a design has been validated in simulation, its parts can be exported to common formats such as STL for manufacturing, while the runtimes can be seamlessly deployed to a Raspberry Pi connected to the real hardware.
+> 🚧 The Vasall Toolchain is in early development and not yet ready for use.
 
 ## Components
 
-### General Architecture
-
-### Dyno (Working title)
-Dyno is both a CAD editor and a network manager. It allows the design of parts, assembling them into robots and controlling the Sandbox and Runtimes.
-
-Dyno contains the following areas:
-<table>
-  <tr>
-    <td><img src="assets/icons/designer.svg" width="16" height="16"> <b>Designer</b></td>
-    <td>Design parts using script-based CAD</td>
-  </tr>
-  <tr>
-    <td><img src="assets/icons/binder.svg" width="16" height="16">     <b>Binder</b></td>
-    <td>Program the behavior of parts to simulate actuators and sensors</td>
-  </tr>
-  <tr>
-    <td><img src="assets/icons/rigger.svg" width="16" height="16"> <b>Rigger</b></td>
-    <td>Assemble the parts into a robot by configuring connections and joints</td>
-  </tr>
-  <tr>
-    <td><img src="assets/icons/scene_builder.svg" width="16" height="16"> <b>Scene Builder</b></td>
-    <td>Setup the testing environment</td>
-  </tr>
-  <tr>
-    <td><img src="assets/icons/programmer.svg" width="16" height="16"> <b>Programmer</b></td>
-    <td>Configure and programm Runtimes</td>
-  </tr>
-  <tr>
-    <td><img src="assets/icons/simulator.svg" width="16" height="16"> <b>Simulator</b></td>
-    <td>Configure and manage the Simulation</td>
-  </tr>
-</table>
-
-### Sandbox
-
-### Runtime
-
-### Writ
-
-### Herold
-
-## Workflow
+| Component | Description |
+|---|---|
+| [Steward](https://github.com/vasall/steward) | Script-based CAD editor for designing robots and managing their simulation and deployment |
+| [Tourney](https://github.com/vasall/tourney) | Physics simulation engine for testing robot designs and training their controllers |
+| [Knight](https://github.com/vasall/knight) | Runtime for robot controllers and AI models, in simulation and on real hardware |
+| [Herold](https://github.com/vasall/herold) | Communication protocol for synchronizing robot configurations and states across the toolchain |
+| [Writ](https://github.com/vasall/writ) | A compilable robot description language |
