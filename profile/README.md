@@ -2,10 +2,10 @@
 
 **Design, simulate, train and deploy robots, all in one toolchain.**
 
-Vasall brings the whole robot prototyping workflow into one
+The Vasall Toolchain brings the whole robot prototyping workflow into one
 self-contained environment. Design parts and assemble robots in
 **Steward**, train their controllers and AI models in **Tourney**, then
-deploy the same **Knight** runtime to a Raspberry Pi on the real robot.
+deploy the same **Knight** runtimes to a Raspberry Pi on the real robot.
 Finished parts can be exported as STL for manufacturing.
 
 > 🚧 The Vasall Toolchain is in early development and not yet ready for use.
