@@ -18,4 +18,4 @@ Finished parts can be exported as STL for manufacturing.
 | [Turnier](https://github.com/vasall/turnier) | Physics simulation engine for testing robot designs and training their controllers |
 | [Ritter](https://github.com/vasall/ritter) | Runtime for robot controllers and AI models, in simulation and on real hardware |
 | [Herold](https://github.com/vasall/herold) | Communication protocol for synchronizing robot configurations and states across the toolchain |
-| [Lettner](https://github.com/vasall/lettner) | A compilable robot description language |
+| [Visierung](https://github.com/vasall/visierung) | A compilable robot description language |
