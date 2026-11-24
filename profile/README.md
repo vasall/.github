@@ -4,8 +4,8 @@
 
 The Vasall Toolchain brings the whole robot prototyping workflow into one
 self-contained environment. Design parts and assemble robots in
-**Studio**, train their controllers and AI models in **Sandbox**, then
-deploy the same **Runtimes** to a Raspberry Pi on the real robot.
+**Studio**, train their controllers and AI models in **Tourney**, then
+deploy the same **Squire** runtimes to a Raspberry Pi on the real robot.
 Finished parts can be exported as STL for manufacturing.
 
 > 🚧 The Vasall Toolchain is in early development and not yet ready for use.
