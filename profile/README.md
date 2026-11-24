@@ -4,8 +4,8 @@
 
 The Vasall Toolchain brings the whole robot prototyping workflow into one
 self-contained environment. Design parts and assemble robots in
-**Vogt**, train their controllers and AI models in **Tourney**, then
-deploy the same **Squire** runtimes to a Raspberry Pi on the real robot.
+**Studio**, train their controllers and AI models in **Sandbox**, then
+deploy the same **Runtimes** to a Raspberry Pi on the real robot.
 Finished parts can be exported as STL for manufacturing.
 
 > 🚧 The Vasall Toolchain is in early development and not yet ready for use.
@@ -14,8 +14,8 @@ Finished parts can be exported as STL for manufacturing.
 
 | Component | Description |
 |---|---|
-| [Vogt](https://github.com/vasall/vogt) | Script-based CAD editor for designing robots and managing their simulation and deployment |
-| [Tourney](https://github.com/vasall/tourney) | Physics simulation engine for testing robot designs and training their controllers |
-| [Squire](https://github.com/vasall/squire) | Runtime for robot controllers and AI models, in simulation and on real hardware |
-| [Herold](https://github.com/vasall/herold) | Communication protocol for synchronizing robot configurations and states across the toolchain |
+| [Studio](https://github.com/vasall/studio) | Script-based CAD editor for designing robots and managing their simulation and deployment |
+| [Sandbox](https://github.com/vasall/sandbox) | Physics simulation engine for testing robot designs and training their controllers |
+| [Runtime](https://github.com/vasall/runtime) | Runtime for robot controllers and AI models, in simulation and on real hardware |
+| [Zeal](https://github.com/vasall/zeal) | Communication protocol for synchronizing robot configurations and states across the toolchain |
 | [Writ](https://github.com/vasall/writ) | A compilable robot description language |
